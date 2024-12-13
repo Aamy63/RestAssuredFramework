@@ -18,7 +18,7 @@ public class SpotifyAPIPlaylistTest extends  BaseTest{
     @Link()
     @TmsLink("TC-001")
     @Description("This is our description")
-    @Test(description = "Should able to create playlist")
+    @Test(description = "Should able to create playlist in folder")
     public void shouldAbleToCreatePlaylistTest(){
         String name = generateName();
         System.out.println(name);
